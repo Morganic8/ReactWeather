@@ -11,6 +11,9 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+//app css
+require('style!css!applicationStyles')
+
 ReactDOM.render(
   //Router expects one prop
   //{hashHistory}, {Main}, {Weather} are JSX expressions
